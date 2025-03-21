@@ -4,7 +4,7 @@ class Program
 {
     static void Main()
     {
-        int intLiteral = 42;
+        int intLiteral = 24;
         double doubleLiteral = 3.14;
         char charLiteral = 'A';
         string stringLiteral = "Hello, World!";
