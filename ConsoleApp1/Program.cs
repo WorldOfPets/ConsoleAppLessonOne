@@ -10,6 +10,10 @@ class Program
         string stringLiteral = "Hello, World!";
         bool boolLiteral = true;
 
-        
+        Console.WriteLine($"Integer Literal: {intLiteral}, Type: {intLiteral.GetType()}");
+        Console.WriteLine($"Double Literal: {doubleLiteral}, Type: {doubleLiteral.GetType()}");
+        Console.WriteLine($"Char Literal: {charLiteral}, Type: {charLiteral.GetType()}");
+        Console.WriteLine($"String Literal: {stringLiteral}, Type: {stringLiteral.GetType()}");
+        Console.WriteLine($"Bool Literal: {boolLiteral}, Type: {boolLiteral.GetType()}");
     }
 }
